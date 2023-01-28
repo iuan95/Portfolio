@@ -72,7 +72,7 @@ img{
 }
 .btn{
     display: inline-block;
-    background: var(--color-white);/*https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit*/
+    background: var(--color-white);
     color: var(--color-black);
     padding: 1rem 2rem;
     border: 1px solid transparent;
@@ -138,27 +138,27 @@ header{
     
     position: relative;
     top: 5rem;
-    overflow: hidden; /* переполненине*/
+    overflow: hidden; 
 
     height: 70vh;
     margin-bottom: 5rem;
 }
 .header_container{
     display: grid;
-    grid-template-columns: 1fr 1fr;/* 50% на 50% */
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 5rem;
     height: 100%;
 }
 
 .header_left p {
-    margin: 1rem 0 2.4rem; /* уеьээ / кытыылара/ аллараа*/
+    margin: 1rem 0 2.4rem; 
 }
 
 /*============Categories===========*/
 
 .categories{
-    /*overflow: hidden; рамка таьыгыар тагыстага быьар*/
+
     background: var(--color-bg2);
     height: 32rem;
 }
@@ -170,14 +170,14 @@ header{
 .categories_container{
 
     display: grid;
-    grid-template-columns: 40% 60%; /* 40% правая сторона, 60% левая*/
+    grid-template-columns: 40% 60%; 
     /*gap: 4rem;*/
 }
 .categories_left{
     margin-right: 4rem;
 }
 .categories_left p{
-    margin: 1rem 0 3rem; /* уеьээ / кытыылара/ аллараа*/
+    margin: 1rem 0 3rem; 
 }
 .categories_right{
 
@@ -309,7 +309,7 @@ header{
     border-radius: 50%;
     /*border-color: #000;*/
     /*border: 2px solid black;*/
-    overflow: hidden; /* рамка таьыгар бары суох гынар*/
+    overflow: hidden; 
     margin: 0 auto 1rem;
     border: 1rem solid var(--color-bg2);
 }
